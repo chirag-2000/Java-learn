@@ -1,0 +1,11 @@
+package four.variables;
+
+public class Variable_01 {
+
+	public static void main(String[] args) {
+		int local;
+		System.out.println(local);
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package six.array;
+
+//import two.classs.objects.Person;
+
+public class Array_01 {
+
+	public static void main(String[] args) {
+		int[] myAarray = new int[3];
+		myAarray[0] = 10;
+		myAarray[1] = 20;
+		myAarray[2] = 30;
+		
+		System.out.println(myAarray[1]);
+		System.out.println("len = " + myAarray.length);
+		for (int ele : myAarray) {
+			System.out.println(ele);
+		}
+		
+		int[] myArr = {22,4,51,35,49};
+		for (int i : myArr) {
+			System.out.println(i);
+		}
+		
+		Personn[] user = new Personn[2];
+		 alex.name = "Alex"; //once complier executes this line name will be assigned to person obj and alex ref will be pointing to it
+		 alex.age =55;
+		 alex.gender ="Male";
+		 alex.sleep();//control jumps to sleep method
+		 
+		 Person mia = new Person();
+		 mia.name="Mia";
+		 mia.age=8;
+		 mia.gender="Female";
+		
+	}
+
+}

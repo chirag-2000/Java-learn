@@ -1,0 +1,13 @@
+package four.variables;
+
+public class Scope_02 {
+	
+	final int instance_var = 10;
+	public static void main(String[] args) {
+		
+		Variable_01 obj = new Variable_01();
+		System.out.println(obj.instance_var);//value will be zero because by default instance variable is default
+
+	}
+
+}

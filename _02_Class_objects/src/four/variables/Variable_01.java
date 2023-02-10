@@ -1,0 +1,40 @@
+package four.variables;
+
+public class Variable_01 {
+	int instance_var;//cannot be access on static member so we create an obj of the class
+	
+	public static void main(String[] args) {
+		int local=5; //local variable
+		System.out.println(local);
+		
+		Variable_01 obj = new Variable_01();
+		System.out.println(obj.instance_var);//value will be zero because by default instance variable is default
+		
+		boolean a=true;
+		float b = 23.44f;
+		char c = 'a';
+		char ch = '\u0062';
+		String st = "ssup bro!!";
+		
+		System.out.println(a  + "\n" + c + "\n" + ch + "\n" +  st + "\n" + b);
+		
+		//Type casting
+		float f = 2.22f;
+		int i = (int)f;
+		System.out.println("Typecast = " + 	i);
+	}
+
+}
+
+//public class Exercise {
+//	 
+//    public static void main(String[] args) {
+//       System.out.println(printResult());
+//    }
+//    
+//    public static int printResult(){
+//        float x = 5.2f;
+//        int y = (int)x;
+//        return y;
+//    }
+//}

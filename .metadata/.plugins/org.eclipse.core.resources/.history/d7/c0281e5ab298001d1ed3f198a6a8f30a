@@ -1,0 +1,19 @@
+package five.wrapperClass;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		Integer  a = Integer.valueOf(10); //ref var pointing to integer object //autoboxing :  is the automatic conversion of conversion  of Premitive datatype  into its corresponding wrapper
+//		classes. Integer a = 10;
+	
+		int b=20;
+		int c= a;
+		
+		if(a==10) {
+			c= a+b;
+		}
+		
+		System.out.println("c:"  +  c);
+	}
+
+}

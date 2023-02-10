@@ -1,0 +1,16 @@
+package four.variables;
+
+public class Operators_03 {
+
+	public void operatorTest() {
+		int count = 10;
+		System.out.println(count);
+		int extraCount = 2;
+		System.out.println(count-extraCount);
+	}
+	public static void main(String[] args) {
+	Operators_03 obj = new 	Operators_03();
+	obj.operatorTest();
+	}
+
+}

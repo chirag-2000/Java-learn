@@ -1,0 +1,26 @@
+package four.variables;
+
+public class Variable_01 {
+	int x;//cannot be access on static member so we create an obj of the class
+	
+	public static void main(String[] args) {
+		int local=5; //local variable
+		boolean a=true;
+//		float b = 10.144;
+		char c = 'a';
+		char ch = '\u0061';
+		String st = "ssup bro!!";
+		
+		System.out.println(c + ch + st);
+		
+		System.out.println(local);
+		
+		 Variable_01 obj = new Variable_01();
+		 System.out.println(obj.x);//value will be zero because by default instance variable is default
+		 
+		 
+		
+
+	}
+
+}

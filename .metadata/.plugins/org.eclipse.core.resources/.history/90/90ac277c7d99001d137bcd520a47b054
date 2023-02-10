@@ -1,0 +1,14 @@
+package six.array;
+
+public class Array_01 {
+
+	public static void main(String[] args) {
+		int[] myAarray = new int[3];
+		myAarray[0] = 10;
+		myAarray[1] = 20;
+		myAarray[2] = 30;
+		
+		System.out.println(myAarray[1]);
+	}
+
+}

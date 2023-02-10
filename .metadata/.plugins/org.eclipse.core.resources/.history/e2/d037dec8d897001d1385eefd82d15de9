@@ -1,0 +1,17 @@
+package four.variables;
+
+public class Variable_01 {
+	int x;//canot be access on static memeber so we create an obj of the class
+	public static void main(String[] args) {
+		int local=5; //local variable
+		System.out.println(local);
+		
+		 Variable_01 obj = new Variable_01();
+		 System.out.println(obj.x);
+		 
+		 
+		
+
+	}
+
+}

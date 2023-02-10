@@ -1,0 +1,101 @@
+JDK - JAVA DEVELOPMENT KIT USED TO COMILE THE JAVA CODE
+
+
+Every java file needs to have a public class
+
+Every class can have only one public class
+
+Your program starts running from public static void main
+
+Use camelcase convention
+while creating variable keep in mind the rules we can use  underscore ,$ ,alpha numeric while making a variable dont start varible with num
+
+int 4 bytes  long 8 bytes (1 byte- 8 bit)
+
+cntl (cmd)+ space -  auto complete
+
+
+    Unary Operator,
+    Arithmetic Operator,
+    Shift Operator,
+    Relational Operator,
+    Bitwise Operator,
+    Logical Operator,
+    Ternary Operator and
+    Assignment Operator.
+    Assignment Operator.
+
+Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+
+
+To take input we use scanner class and import scanner method
+
+we create a object for the scanner class and use them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+import java.util.Scanner;
+public class MyClass  {
+    public static void main(String[] args){
+        System.out.println("ssup guyss!!");
+        //Data type
+        //int,float, char, tring, long , double , boolean
+        
+        int age = 18;
+        float height = 5.11f;
+        char grade = 'A';
+        String  name ="mynigger";
+        boolean isValid = false;
+        
+        long bigNum = 897976876086092432l;
+        //add l at end to denote the complier it is a long dt
+        System.out.println(name);
+        
+        //arithmetic operations +,-,/,*,%,++,--
+        int n1=100;
+        int n2=200;
+        // System.out.println(n1+n2);
+        // System.out.println( "pi = " + ++n1 + "\n");
+        
+        
+        int calc1 = n1 * n2;
+        int calc2 = n1 - n2;
+        int calc3 = n1 / n2; //here the int rounds and floors  
+        double calc4 = (double) n1 / (double) n2; 
+    
+        System.out.println(calc1);
+        System.out.println(calc2);
+        System.out.println(calc3);
+        System.out.println(calc4);
+        
+        //taking user input
+        Scanner sc = new Scanner(System.in);
+        int  age1 = sc.nextInt();
+        System.out.println("Enter your Age: ");
+        int  name1 = sc.nextLine();
+        System.out.println("Enter your Name: ");
+        
+        System.out.println("age1: " + age1);
+        System.out.println("name1: " + age1);
+        
+            
+        
+        
+        
+    }
+}
+

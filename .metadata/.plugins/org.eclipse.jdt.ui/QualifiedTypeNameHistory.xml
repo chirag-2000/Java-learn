@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="_02_Class_objects.Person1"/>
+    <fullyQualifiedTypeName name="java.security.cert.CollectionCertStoreParameters"/>
+    <fullyQualifiedTypeName name="_02_Class_objects.Person"/>
+    <fullyQualifiedTypeName name="src.acessmod.A"/>
+    <fullyQualifiedTypeName name="src2.C"/>
+    <fullyQualifiedTypeName name="src.acessmod.D"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="javax.security.auth.x500.X500Principal"/>
+    <fullyQualifiedTypeName name="four.variables.Variable_01"/>
+    <fullyQualifiedTypeName name="four.variables.Scope_02"/>
+    <fullyQualifiedTypeName name="four.variables.Operators_03"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.JoinRowSet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.spi.LocaleNameProvider"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.awt.color.ICC_ColorSpace"/>
+    <fullyQualifiedTypeName name="seven.method.MethodSample"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

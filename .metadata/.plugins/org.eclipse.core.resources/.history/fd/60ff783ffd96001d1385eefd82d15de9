@@ -1,0 +1,30 @@
+package src.acessmod;
+
+import src2.C;
+
+public class A{
+	public void sayHello() { //example of public: //remove public to make it default
+		System.out.println("hello from A");
+	}
+}
+public class B {
+
+	public static void main(String[] args) {
+	A a = new A();//example of public:
+	a.sayHello();
+	
+	C c = new C();
+	c.sayHello();
+	
+	D d = new D();
+	d.sayHi();
+	
+	}
+
+}
+
+class D {
+	public void sayHi() {
+		System.out.println("Hi from D");
+	}
+}
